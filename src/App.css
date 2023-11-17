@@ -1,0 +1,78 @@
+body {
+    background: black;
+}
+
+.card-image:hover {
+    border-radius: 0px;
+    transition: all .4s ease-in-out;
+}
+
+.logo-text {
+    font-size: 33px;
+}
+
+@media only screen and (min-width: 768px) {
+    .card-image {
+      width: 507px!important;
+      height: 285px!important;
+    }
+}
+
+
+@media only screen and (min-width: 820px) {
+    .card-image {
+        width: 541px!important;
+        height: 323px!important;
+    }
+}
+
+@media only screen and (min-width: 912px) {
+    .card-image {
+        width: 653px!important;
+        height: 424px!important;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .card-container{
+        width: 354px!important;
+    }
+
+    .card-image {
+      width: 369px!important;
+      height: 240px!important;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .card-container{
+        width: 324px!important;
+    }
+
+    .card-image {
+        width: 310px!important;
+        height: 223px!important;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .card-container{
+        width: 377px!important;
+    }
+
+    .card-image {
+        width: 377px!important;
+        height: 223px!important;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    .card-container{
+        width: 401px!important;
+    }
+
+    .card-image {
+        width: 390px!important;
+        height: 223px!important;
+    }
+}
